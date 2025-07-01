@@ -5,7 +5,6 @@ import scala.util.{Try, Success, Failure}
 
 object GestorTareas {
   private var tareas: List[Tarea] = List()
-  val tareasCargadas = cargarTareas("tareas.dat")
 
   def cargarTareas(ruta: String): List[Tarea] = {
     val resultado = Try {
@@ -36,10 +35,13 @@ object GestorTareas {
   }
 
   def buscarPorEtiqueta(etiqueta: String): List[Tarea] = {
+    println("buscar por etiqueta")
+    List.empty[Tarea]
   }
 
   def filtrarPorEstado(e: Estado): List[Tarea] = {
-
+    println("filtrar por estado")
+    List.empty[Tarea]
   }
 
 
