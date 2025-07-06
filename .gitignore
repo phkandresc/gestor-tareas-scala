@@ -3,3 +3,76 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Compiled class files
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific
+*.dat
+*.tmp
+*.bak
+
+# Build tools
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Metals (Scala Language Server)
+.metals/
+.bloop/
+metals.sbt
+
+# Mill
+out/
+
+# Temporary files
+*~
+*.swp
+*.swo
