@@ -1,5 +1,5 @@
 package model
 
-enum Prioridad {
+enum Prioridad extends Serializable {
   case Baja, Media, Alta
 }
